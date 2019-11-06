@@ -1,0 +1,19 @@
+<!--plugin/components/choose.wxml-->
+<form bindsubmit="toFunction" class='head-form'  >
+    <scroll-view scroll-x class="head-view" style="height:{{viewHeight}}">
+      <button wx:for="{{chooseArray}}" wx:key="key" id="{{item.id}}" style="width:{{viewWidth}};height:{{viewHeight}};border-right:{{borderRightStyle}};border-bottom:{{mId==item.id?borderBottomStyle:''}}" class="head-item"  form-type='submit'>
+        <view class="itemK" wx:if="{{mId==item.id}}" style="width:{{viewWidth}};height:{{viewHeight}};background:{{chooseBj}};color:{{choosewordColor}};">
+          <view class="item-image"  wx:if="{{item.src}}" style="width:{{viewWidth}};">
+            <image src="{{item.src}}"></image>
+          </view>
+          <view class="item-text" wx:if="{{item.text}}" style="width:{{viewWidth}};line-height:{{item.src?viewHeight/2:viewHeight}};">{{item.text}}</view>
+        </view>
+        <view wx:else style="width:{{viewWidth}};height:{{viewHeight}};background:{{noChooseBj}};color:{{noChoosewordColor}}">
+          <view class="item-image" wx:if="{{item.src}}">
+            <image src="{{item.src}}"></image>
+          </view>
+          <view class="item-text" wx:if="{{item.text}}" style="width:{{viewWidth}};line-height:{{item.src?viewHeight/2:viewHeight}}">{{item.text}}</view>
+        </view>
+      </button>
+    </scroll-view>
+  </form>

@@ -1,0 +1,26 @@
+<view class='content'>
+    <!-- <view wx:for="{{showList}}"  wx:key="key" class='changeBut {{index!=location&&"noChooseItem"}}' style="width:{{}};height:{{}};background-color:{{item.color}};" >
+
+    {{item.name}}
+    </view> -->
+    <view class='h1'>
+      <view class='changeBut b1 {{loaction!="0"&&"noChooseItem"}}' data-index='0'  style="background-color:{{showList[0].color}};" >{{showList[0].name}}</view>
+      <view class='changeBut b2 {{loaction!=1&&"noChooseItem"}}' data-index='1'  style="background-color:{{showList[1].color}};" >{{showList[1].name}}</view>
+      <view class='changeBut b3 {{loaction!=2&&"noChooseItem"}}' data-index='2'  style="background-color:{{showList[2].color}};" >{{showList[2].name}}</view>
+    </view>
+    <view class='h2'>
+      <view class='changeBut b8 {{loaction!=7&&"noChooseItem"}}' data-index='7'  style="background-color:{{showList[7].color}};" >{{showList[7].name}}</view>
+      <view wx:if="{{start}}" class="startBut2">START</view>
+      <view bindtap='toStart' wx:else class="startBut">START</view>
+      <view class='changeBut b4 {{loaction!=3&&"noChooseItem"}}' data-index='3'  style="background-color:{{showList[3].color}};" >{{showList[3].name}}</view>
+     
+      
+    </view>
+    <view class='h3'>
+      <view class='changeBut b5 {{loaction!=4&&"noChooseItem"}}' data-index='4'  style="background-color:{{showList[4].color}};" >{{showList[4].name}}</view>
+      <view class='changeBut b6 {{loaction!=5&&"noChooseItem"}}' data-index='5'  style="background-color:{{showList[5].color}};" >{{showList[5].name}}</view>
+      <view class='changeBut b7 {{loaction!=6&&"noChooseItem"}}' data-index='6'  style="background-color:{{showList[6].color}};" >{{showList[6].name}}</view>
+    </view>
+
+  
+</view>

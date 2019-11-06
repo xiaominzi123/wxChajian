@@ -1,0 +1,3 @@
+<choose bind:myget='toFunction' chooseArray='{{chooseArray}}'  viewWidth="{{viewWidth}}" viewHeight="{{viewHeight}}"/>
+<select prop-array='{{selectArray}}'  bind:myget='getDate'/>
+<list showList="{{arr}}"/>

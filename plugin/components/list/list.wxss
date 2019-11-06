@@ -1,0 +1,63 @@
+
+.content{
+  width: 690rpx;
+  height: 690rpx;
+  margin: 0 auto;
+  background: #ddd;
+  border-radius: 20rpx;
+  
+}
+.h1{
+  width: 690rpx;
+}
+.startBut{
+  float: left;
+  width: 230rpx;
+  height: 230rpx;
+  background: green;
+  line-height: 230rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: #efefef;
+  border-radius: 10rpx;
+}
+.startBut2{
+  width: 210rpx;
+  height: 210rpx;
+  margin: 10rpx;
+  background: #aaa;
+  float: left;
+  line-height: 230rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: #efefef;
+  border-radius: 10rpx;
+ 
+}
+.changeBut{
+  float: left;
+  width: 170rpx;
+  height: 180rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #0c0483;
+  font-weight: 700;
+  border-radius: 20rpx;
+  word-wrap: break-word; 
+  word-break: normal;
+  padding: 50rpx 30rpx 0;
+}
+.h3 view{
+  float: right;
+}
+.noChooseItem{
+  opacity:0.3;
+}
+
+.chooseDept{
+  display: inline-block;
+  margin-left: 100rpx;
+  font-size: 28rpx;
+  color: #888;
+ 
+}

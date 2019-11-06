@@ -1,0 +1,8 @@
+{
+  "publicComponents": {
+    "list": "components/list/list",
+    "select": "components/select/select",
+    "choose": "components/choose/choose"
+  },
+  "main": "index.js"
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "list": "plugin://myPlugin/list",
+    "select": "plugin://myPlugin/select",
+    "choose": "plugin://myPlugin/choose"
+  }
+}
